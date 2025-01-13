@@ -1,0 +1,9 @@
+.zdjecie{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    width: 300px;
+}
+.like{
+    width: 50px;
+}
