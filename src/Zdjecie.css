@@ -7,3 +7,20 @@
 .like{
     width: 50px;
 }
+.pasek{
+    width: 200px;
+    height: 20px;
+    background-color: green;
+}
+.pdlike{
+    
+    height: 20px;
+    background-color: red;
+    float: left;
+}
+.plike{
+    width: 70%;
+    height: 20px;
+    background-color: green;
+    float: left;
+}

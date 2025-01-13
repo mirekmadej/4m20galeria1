@@ -13,17 +13,17 @@ function App() {
   function flike()
   {
       setLike(like+1);
-      zdjecia[0].like = like;
+      zdjecia[0].like = like+1;
   }
   function fdlike()
   {
       setDislike(dislike+1);
-      zdjecia[0].dislike = dislike;
+      zdjecia[0].dislike = dislike+1;
   }
   return (
     <div className="App">
       <h1>Galeria</h1>
-      <Zdjecie z={zdjecia[0]} />
+      <Zdjecie z={zdjecia[0]} fl={flike} fd={fdlike}/>
     </div>
   );
 }
